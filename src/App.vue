@@ -1,12 +1,12 @@
 <template>
   <div>
-    <nav class="bg-regal-blue	">
+    <nav class="bg-regal-blue rounded	">
       <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
               <img
-                class="w-8 h-8"
+                class="w-8 h-8 "
                 src="/img/Gquiz.png"
                 alt="logo"
               />
@@ -32,7 +32,7 @@
                     ]"
                     >{{ link.text }}</a
                   >
-                </router-link>
+                </router-link >
               </div>
             </div>
           </div>
@@ -110,9 +110,9 @@
 
 
 
-    <div class="max-w-screen-xl py-6 mx-auto sm:px-6 lg:px-8">
-      <router-view />
-    </div>
+    <main class=" max-w-screen-xl py-6 mx-auto sm:px-6 lg:px-8">
+      <router-view/>
+    </main>
   </div>
 </template>
 
@@ -125,8 +125,13 @@ export default defineComponent({
     showProfileMenu: false,
     links: [
       { text: 'Home', to: '/' },
-      { text: 'Arts mouvements', to: '/about' },
+      { text: 'Arts movements', to: '/about' },
     ],
   }),
 })
 </script>
+
+<style scoped>
+
+
+</style>

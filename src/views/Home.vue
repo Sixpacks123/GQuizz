@@ -1,20 +1,37 @@
 <template>
   <div class="">
     <div class="">
-      <h1 class="text-2xl  text-center font-extrabold leading-10 tracking-tight text-gray-900  sm:text-3xl  md:text-4xl"> 
-        Rules 
+      <h1 class="text-3xl text-extrabold  text-center  leading-10 tracking-tight text-gray-900  sm:text-3xl  md:text-4xl"> 
+        Rules of GQuizz 
       </h1>
-      <gameComponents/>
+      <div class="px-4 sm:px-6 lg:px-8">
+        <gameComponents class="py-4"/>
+        <setup class="py-4"/>
+        <Gameplay class="py-4"/>     
+        <Scoring class="py-4"/>
+        <endOfGame/>
+        <camera class=""/>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script>
 import gameComponents from '../components/gameComponents.vue'
-
+import Gameplay from '../components/Gameplay.vue'
+import setup from '../components/setup.vue'
+import Scoring from '../components/Scoring.vue'
+import endOfGame from '../components/endOfGame.vue'
+// import camera from '../components/camera.vue'
 export default {
   components: {
-    gameComponents
+    gameComponents,
+    Gameplay,
+    setup,
+    Scoring,
+    endOfGame,
+    // camera
   }
 }
 </script>
