@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="bg-regal-blue rounded	">
+    <nav class="bg-regal-blue	">
       <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
