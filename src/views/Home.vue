@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="">
-      <h1 class="text-3xl text-extrabold  text-center  leading-10 tracking-tight text-gray-900  sm:text-3xl  md:text-4xl"> 
+      <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl"> 
         Rules of GQuizz 
       </h1>
       <div class="px-4 sm:px-6 lg:px-8">
@@ -10,7 +10,6 @@
         <Gameplay class="py-4"/>     
         <Scoring class="py-4"/>
         <endOfGame/>
-        <camera class=""/>
       </div>
 
     </div>

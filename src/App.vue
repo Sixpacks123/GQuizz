@@ -5,11 +5,15 @@
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
+              <router-link 
+                to="/"
+              >
               <img
                 class="w-8 h-8 "
                 src="/img/Gquiz.png"
                 alt="logo"
-              />
+              /></router-link>
+
             </div>
             <div class="hidden md:block">
               <div class="flex items-baseline ml-10">
@@ -111,7 +115,10 @@
 
 
     <main class=" max-w-screen-xl py-6 mx-auto sm:px-6 lg:px-8">
+      <transition name="fade" appear>
       <router-view/>
+    </transition>
+
     </main>
   </div>
 </template>
@@ -133,5 +140,11 @@ export default defineComponent({
 
 <style scoped>
 
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 
 </style>
