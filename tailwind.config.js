@@ -15,6 +15,11 @@ module.exports = {
   },
   theme: {
     extend: {
+      colors: {
+        'regal-blue': '#359f9d',
+        'jaune' : '#fcba03',
+        'jaune-grey' : '#B79900'
+      },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },

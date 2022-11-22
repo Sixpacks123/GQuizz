@@ -1,16 +1,24 @@
 <template>
-  <main>
-    <div class="px-4 py-6 sm:px-0">
-      <div
-        class="p-4 text-center text-gray-400 border-4 border-gray-200 border-dashed rounded-lg  h-96"
-      >
-        Here goes your content. You can also go the
-        <router-link
-          to="/about"
-          class="text-indigo-600 underline hover:text-indigo-500"
-          >About page</router-link
-        >.
-      </div>
+  <div class="">
+    <div class="">
+      <h1 class="text-2xl  text-center font-extrabold leading-10 tracking-tight text-gray-900  sm:text-3xl  md:text-4xl"> 
+        Rules 
+      </h1>
+      <gameComponents/>
     </div>
-  </main>
+  </div>
 </template>
+
+<script>
+import gameComponents from '../components/gameComponents.vue'
+
+export default {
+  components: {
+    gameComponents
+  }
+}
+</script>
+
+<style scoped> 
+
+</style>
