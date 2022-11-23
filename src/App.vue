@@ -131,7 +131,7 @@ export default defineComponent({
     showMenu: false,
     showProfileMenu: false,
     links: [
-      { text: 'Home', to: '/' },
+      { text: 'Rules', to: '/' },
       { text: 'Arts movements', to: '/Arts' },
     ],
   }),

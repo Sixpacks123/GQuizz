@@ -15,15 +15,15 @@ export default {
             arts : [               
                 { name : 'Rococo', def :'It\'s style in interior design, the decorative arts, painting, architecture, and sculpture. It is characterized by lightness, elegance, and an exuberant use of curving natural forms in ornamentation.'},
                 { name : 'Baroque', def :'Is characterized by exaggeration of movement, decorative overload, dramatic effects, tension, exuberance of forms, sometimes pompous greatness and contrast'},
-                { name : 'Naturalism', def:''}     ,
+                { name : 'Naturalism', def:'Gives primary importance to the motif, to perceived nature as it is, to the peasant world, rather than to historical, mythological or religious scenes.'}     ,
                 { name : 'Arts & Crafts', def :'Gives primary importance to the motif, to perceived nature as it is, to the peasant world, rather than to historical, mythological or religious scenes.'   },    
                 { name : 'Classicism' , def :'Is defined by a set of values ​​and criteria which outline an ideal embodied in the “honest man” and which develop an aesthetic based on a search for perfection, its key word is reason.'},
-                { name : 'Bauhaus', def :''},    
+                { name : 'Bauhaus', def :'a Bauhaus work is characterized by raw materials, in their natural state, rigid forms. The colors are sober and neutral. The proportions of the graphic compositions are balanced and the messages clear'},    
                 { name : 'Phychedelic', def :'Is characterized by bright, contrasting, multicolored, discordant and acid colors. The images are distorted, confused, they often refer to nature, religion, the cosmos and love'},
-                { name : 'Pop art', def :''},
-                { name : 'Urban art', def :''},
-                { name : 'Fluxus ', def :''},
-                { name : 'New realism', def :'New realism is a movement which aimed to describe ordinary everyday reality without any idealisation'},
+                { name : 'Pop art', def :'Pop art is characterized by a deconstruction of images seen in popular culture – television, comic books, magazines, movies and other various forms of advertising'},
+                { name : 'Urban art', def :'Urban art combines street art and graffiti and is often used to summarize all visual art forms arising in urban areas, being inspired by urban architecture or present urban lifestyle.'},
+                { name : 'Fluxus ', def :'The artists are engaged in experimental art performances which emphasize the artistic process over the finished product'},
+                { name : 'New realism', def :'New realism is a movement which aims to describe ordinary everyday reality without any idealisation'},
                 { name : 'Neoclassicism', def   :'Neoclassicism is characterized by clarity of form, sober colors, shallow space, strong horizontal and verticals that render that subject matter timeless, and classical subject matter (or classicizing contemporary subject matter).'} , 
                 { name : 'Surrealism' , def  :'A surrealist work is made up of unexpected elements, which do not necessarily have any connection with each other. Surrealist artists distort objects to create new iconographic approaches'},  
                 { name : 'Realism' , def :'Aims to represent reality as faithfully as possible, with subjects and characters chosen from the middle or working classes.'}, 
@@ -32,7 +32,7 @@ export default {
                 { name : 'Dadaism' , def :'Dadaism consist of artists who rejected the logic, reason, and astheticism of modern capitalist society'},
                 { name : 'Cubism' , def :'In Cubist artwork, objects are analyzed, broken up and reassembled in an abstracted form'},
                 { name : 'Romanticism' , def :'Romanticism was characterized by its emphasis on emotion and individualism, clandestine literature, idealization of nature, suspicion of science and industrialization, and glorification of the past with a strong preference for the medieval rather than the classical'}, 
-                { name : 'Mannerism', def :''},
+                { name : 'Mannerism', def :'Mannerism seeks elegance, refinement, unusual, surprise effect'},
                 { name : 'Pointillism', def :'Pointillism is the practice of applying small strokes or dots of colour to a surface so that from a distance they visually blend together'},
                 { name : 'Symbolism' , def :'Symbolism represent absolute truths symbolically through language and metaphorical images, mainly as a reaction against naturalism and realism'},
                 { name : 'Abstract art' ,  def :'Abstract art uses visual language of shape, form, color and line to create a composition which may exist with a degree of independence from visual references in the world'},
@@ -46,7 +46,7 @@ export default {
                 { name : '3D (Three dimension)' ,   def :'Three-dimensional art is defined as art with all the dimensions of height, width, and depth'},
                 { name : 'Pixel art (1990\'s)', def :'It\'s an art each pixel assembled make an image'},    
                 { name : 'Cartoon', def :'A cartoon is a type of visual art that is typically drawn, frequently animated, in an unrealistic or semi-realistic style.'},
-                { name : 'Skeuomorphism (today1980 - today)' ,   def :'It\'s an art to transform an reel object to virtuel object'}
+                { name : 'Skeuomorphism (today1980 - today)' ,   def :'It\'s an art that is looking to make virtual objects appear like real ones.'}
 
             ]
         }
