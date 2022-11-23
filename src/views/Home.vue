@@ -13,8 +13,8 @@
       </div>
 
     </div>
-    <footer class="relative h-64 m-2 overflow-hidden bg-indigo-500 rounded-lg">
-      <img src="/img/logos/plateau.png" class=""/>
+    <footer class="relative  m-2 overflow-hidden rounded-lg">
+      <img src="/img/logos/footer.png" class=""/>
     </footer>
   </div>
 </template>
