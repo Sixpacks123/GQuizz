@@ -115,10 +115,7 @@
 
 
     <main class=" max-w-screen-xl py-6 mx-auto sm:px-6 lg:px-8">
-      <transition name="fade" appear>
       <router-view/>
-    </transition>
-
     </main>
   </div>
 </template>
@@ -139,12 +136,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
 
 </style>

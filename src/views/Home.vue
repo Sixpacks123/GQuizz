@@ -9,6 +9,7 @@
         <setup class="py-4"/>
         <Gameplay class="py-4"/>     
         <Scoring class="py-4"/>
+        <indice class="py-4"/>
         <endOfGame/>
       </div>
       <div class="">
@@ -26,6 +27,7 @@ import gameComponents from '../components/gameComponents.vue'
 import Gameplay from '../components/Gameplay.vue'
 import setup from '../components/setup.vue'
 import Scoring from '../components/Scoring.vue'
+import indice from '../components/indice.vue'
 import endOfGame from '../components/endOfGame.vue'
 // import camera from '../components/camera.vue'
 export default {
@@ -35,6 +37,7 @@ export default {
     setup,
     Scoring,
     endOfGame,
+    indice
     // camera
   }
 }
