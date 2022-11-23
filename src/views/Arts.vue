@@ -1,0 +1,55 @@
+<template>
+    <div class="px-4 sm:px-6 lg:px-8">
+        <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl">Arts movements</h1>
+        <div v-for="art in arts" :key="arts.name">
+            <h3 class=" font-extrabold">{{ art.name }}</h3>
+            <p> {{ art.def}}</p>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            arts : [               
+                { name : 'Rococo', def :'It\'s style in interior design, the decorative arts, painting, architecture, and sculpture. It is characterized by lightness, elegance, and an exuberant use of curving natural forms in ornamentation.'},
+                { name : 'Baroque', def :'Is characterized by exaggeration of movement, decorative overload, dramatic effects, tension, exuberance of forms, sometimes pompous greatness and contrast'},
+                { name : 'Naturalism', def:''}     ,
+                { name : 'Arts & Crafts', def :'Gives primary importance to the motif, to perceived nature as it is, to the peasant world, rather than to historical, mythological or religious scenes.'   },    
+                { name : 'Classicism' , def :'Is defined by a set of values ​​and criteria which outline an ideal embodied in the “honest man” and which develop an aesthetic based on a search for perfection, its key word is reason.'},
+                { name : 'Bauhaus', def :''},    
+                { name : 'Phychedelic', def :'Is characterized by bright, contrasting, multicolored, discordant and acid colors. The images are distorted, confused, they often refer to nature, religion, the cosmos and love'},
+                { name : 'Pop art', def :''},
+                { name : 'Urban art', def :''},
+                { name : 'Fluxus ', def :''},
+                { name : 'New realism', def :'New realism is a movement which aimed to describe ordinary everyday reality without any idealisation'},
+                { name : 'Neoclassicism', def   :'Neoclassicism is characterized by clarity of form, sober colors, shallow space, strong horizontal and verticals that render that subject matter timeless, and classical subject matter (or classicizing contemporary subject matter).'} , 
+                { name : 'Surrealism' , def  :'A surrealist work is made up of unexpected elements, which do not necessarily have any connection with each other. Surrealist artists distort objects to create new iconographic approaches'},  
+                { name : 'Realism' , def :'Aims to represent reality as faithfully as possible, with subjects and characters chosen from the middle or working classes.'}, 
+                { name : 'Impressionism' ,  def :'Impressionist painters favor landscapes or scenes of everyday life with more vivid and clear colors, simple patterns and plays of light'},
+                { name : 'Futurism' ,    def :'Futurism emphasized dynamism, speed, technology, youth, violence, and objects such as the car, the airplane, and the industrial city.'},
+                { name : 'Dadaism' , def :'Dadaism consist of artists who rejected the logic, reason, and astheticism of modern capitalist society'},
+                { name : 'Cubism' , def :'In Cubist artwork, objects are analyzed, broken up and reassembled in an abstracted form'},
+                { name : 'Romanticism' , def :'Romanticism was characterized by its emphasis on emotion and individualism, clandestine literature, idealization of nature, suspicion of science and industrialization, and glorification of the past with a strong preference for the medieval rather than the classical'}, 
+                { name : 'Mannerism', def :''},
+                { name : 'Pointillism', def :'Pointillism is the practice of applying small strokes or dots of colour to a surface so that from a distance they visually blend together'},
+                { name : 'Symbolism' , def :'Symbolism represent absolute truths symbolically through language and metaphorical images, mainly as a reaction against naturalism and realism'},
+                { name : 'Abstract art' ,  def :'Abstract art uses visual language of shape, form, color and line to create a composition which may exist with a degree of independence from visual references in the world'},
+                { name : 'Art Deco' , def :'Art deco is a popular design characterized especially by sleek geometric or stylized forms and by the use of man-made materials'},
+                { name : 'Concept art', def :'Conceptual art is art in which the concept(s) or idea(s) involved in the work take precedence over traditional aesthetic, technical, and material concerns'},
+                { name : 'Minimalism', def   :'Minimalism is about avoiding the unnecessary , it\'s about simplicity, utility and elegance'},
+                { name : 'Anti-design', def :'Anti-design is an approach that bucks the rules of conventional design'},
+                { name : 'Flat design' , def :'Flat design is a user interface design style that uses simple, two-dimensional elements and bright colors'},
+                { name : 'Isometric' ,  def   :'Isometric art is a method for visually representing three-dimensional objects in two dimensions in technical and engineering drawings'},
+                { name : 'Line art' , def :' Line art is any image that consists of distinct straight lines or curves placed against a background (usually plain), without gradations in shade (darkness) or hue (color) to represent objects.'},
+                { name : '3D (Three dimension)' ,   def :'Three-dimensional art is defined as art with all the dimensions of height, width, and depth'},
+                { name : 'Pixel art (1990\'s)', def :'It\'s an art each pixel assembled make an image'},    
+                { name : 'Cartoon', def :'A cartoon is a type of visual art that is typically drawn, frequently animated, in an unrealistic or semi-realistic style.'},
+                { name : 'Skeuomorphism (today1980 - today)' ,   def :'It\'s an art to transform an reel object to virtuel object'}
+
+            ]
+        }
+    }
+}
+</script>

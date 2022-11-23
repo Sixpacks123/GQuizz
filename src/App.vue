@@ -132,7 +132,7 @@ export default defineComponent({
     showProfileMenu: false,
     links: [
       { text: 'Home', to: '/' },
-      { text: 'Arts movements', to: '/about' },
+      { text: 'Arts movements', to: '/Arts' },
     ],
   }),
 })
