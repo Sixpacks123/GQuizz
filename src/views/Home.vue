@@ -4,14 +4,16 @@
       <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl"> 
         Rules of GQuiz
       </h1>
-      <div class="px-4 sm:px-6 lg:px-8">
+      <div class="px-4 mb-10 sm:px-6 lg:px-8">
         <gameComponents class="py-4"/>
         <setup class="py-4"/>
         <Gameplay class="py-4"/>     
         <Scoring class="py-4"/>
         <endOfGame/>
       </div>
-
+      <div class="">
+        <h1 class="text-center"> Have fun !</h1>
+      </div>
     </div>
     <footer class="relative  m-2 overflow-hidden rounded-lg">
       <img src="/img/logos/footer.png" class=""/>
