@@ -3,12 +3,15 @@
         <h3 class="font-extrabold">Scoring</h3>
         <div class="flex flex-col">
             <div class=" flex flex-col pb-4 justify-center items-center ">
-                <img src="/img/logos/checkbox.png" class = "w-10 h-10 mr-4">
+                <img src="/img/logos/accept.png" class = "w-10 h-10 mr-4">
                 <p>All the players who guessed the right answer can move their main pawn forwards 1 tile. If the player picked a Level 2 card and guessed the right answer, he moves forwards 2 tiles.</p>
             </div>
-            <div class="flex flex-col pb-4 justify-center items-center">
-                <img src="/img/logos/cancel.png" class = "w-10 h-10 mr-4">
-                <p>All the players who didn’t guess the right answer stay in their tile. If the player picked a Level 2 card and didn’t guess the right answer, he moves backward 1 tile. 
+            <div class="flex flex-col pb-4 justify-center">
+                <div class="flex flex-col justify-center items-center">
+                    <img src="/img/logos/cancel.png" class = "w-10 h-10 mr-4 ">
+                </div>
+                <p class="text-jaune"><span class="  font-extrabold ">Card level 1: </span>All the players who didn’t guess the right answer stay in their tile. <br><br></p>
+                <p class="text-level2" ><span class=" font-extrabold">Card level 2: </span>If the player picked a Level 2 card and didn’t guess the right answer, he moves backward 1 tile. 
 </p>
             </div>
             <div class="flex flex-col justify-center items-center">

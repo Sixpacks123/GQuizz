@@ -18,7 +18,9 @@ module.exports = {
       colors: {
         'regal-blue': '#359f9d',
         'jaune' : '#fcba03',
-        'jaune-grey' : '#B79900'
+        'jaune-grey' : '#B79900',
+        'level1': '#CABF0C',
+        'level2': '#d8602e'
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
@@ -33,6 +35,9 @@ module.exports = {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 }
         }
+      },
+      backgroundImage: {
+        'footer-texture': "url('/img/logos/plateau.png')",
       },
       variants: {
         animation: ["motion-safe"]
