@@ -45,7 +45,7 @@
           <div class="flex -mr-2 md:hidden">
             <!-- Mobile menu button -->
             <button
-              class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md  hover:text-white hover:bg-jaune focus:outline-none focus:bg-jaune focus:text-white"
+              class="inline-flex items-center justify-center p-2 text-jaune rounded-md  hover:text-white hover:bg-jaune focus:outline-none focus:bg-jaune focus:text-white"
               @click="showMenu = !showMenu"
             >
               <!-- Menu open: "hidden", Menu closed: "block" -->
