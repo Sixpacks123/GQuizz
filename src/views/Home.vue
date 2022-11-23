@@ -2,7 +2,7 @@
   <div class="">
     <div class="">
       <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl"> 
-        Rules of GQuizz 
+        Rules of GQuiz
       </h1>
       <div class="px-4 sm:px-6 lg:px-8">
         <gameComponents class="py-4"/>
