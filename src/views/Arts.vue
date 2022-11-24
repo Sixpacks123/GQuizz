@@ -1,10 +1,15 @@
 <template>
+    <div>
     <div class="px-4 sm:px-6 lg:px-8">
         <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl">Arts movements</h1>
-        <div v-for="art in arts" :key="art.name">
+        <div class="flex flex row justify-center mt-2 mb-2">
+            <input type="text" v-model="searchValue" class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" placeholder="Search movements" id="search-input"/>
+        </div>
+        <div v-for="art in filteredarts" :key="art.name">
             <h3 class=" font-extrabold">{{ art.name }}</h3>
             <p> {{ art.def}}</p>
         </div>
+    </div>
     </div>
 </template>
 
@@ -12,6 +17,12 @@
 export default {
     data() {
         return {
+            searchValue: '',
+            loading: false,
+serach: [],
+errorMessage: null,
+    searchTerm: "",
+
             arts : [{
   def: "Three-dimensional art is defined as art with all the dimensions of height, width, and depth",
   name: "3D (Three dimension)"
@@ -117,15 +128,21 @@ export default {
 }]
         }
     },
-    methods: {
-    sorted(arr) {
-      return arr.map(e => e).sort()
-    },
-  },
-  computed: {
-    sortedFruits() {
-      return this.arts.name.map(f => f).sort()
-    }
-  },
+    computed: {
+  filteredarts() {
+    let one = this.arts
+    
+    // Process search input
+    if (this.searchValue != '' && this.searchValue) {
+        one = one.filter((item) => {
+          return item.name
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase())
+        })
+      }
+        
+        return one
+  }
+}
 }
 </script>
