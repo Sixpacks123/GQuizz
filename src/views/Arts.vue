@@ -3,7 +3,7 @@
     <div class="px-4 sm:px-6 lg:px-8">
         <h1 class="text-extrabold  text-center  leading-10 tracking-tight sm:text-3xl  md:text-4xl">Arts movements</h1>
         <div class="flex flex row justify-center mt-2 mb-2">
-            <input type="text" v-model="searchValue" class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" placeholder="Search movements" id="search-input"/>
+            <input type="text" v-model="searchValue" class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline" placeholder="Search movements" id="search-input"/>
         </div>
         <div v-for="art in filteredarts" :key="art.name">
             <h3 class=" font-extrabold">{{ art.name }}</h3>
