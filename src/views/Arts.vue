@@ -25,7 +25,7 @@ errorMessage: null,
 
             arts : [{
   def: "Three-dimensional art is defined as art with all the dimensions of height, width, and depth",
-  name: "3D (Three dimension)"
+  name: "3D"
 }, {
   def: "Abstract art uses visual language of shape, form, color and line to create a composition which may exist with a degree of independence from visual references in the world",
   name: "Abstract art"
@@ -37,7 +37,7 @@ errorMessage: null,
   name: "Art Deco"
 }, {
   def: "Gives primary importance to the motif, to perceived nature as it is, to the peasant world, rather than to historical, mythological or religious scenes.",
-  name: "Arts &amp; Crafts"
+  name: "Arts and Crafts"
 }, {
   def: "Is characterized by exaggeration of movement, decorative overload, dramatic effects, tension, exuberance of forms, sometimes pompous greatness and contrast",
   name: "Baroque"
@@ -97,7 +97,7 @@ errorMessage: null,
   name: "Phychedelic"
 }, {
   def: "It's an art each pixel assembled make an image",
-  name: "Pixel art (1990's)"
+  name: "Pixel art "
 }, {
   def: "Pointillism is the practice of applying small strokes or dots of colour to a surface so that from a distance they visually blend together",
   name: "Pointillism"
@@ -115,7 +115,7 @@ errorMessage: null,
   name: "Romanticism"
 }, {
   def: "It's an art that is looking to make virtual objects appear like real ones.",
-  name: "Skeuomorphism (today1980 - today)"
+  name: "Skeuomorphism"
 }, {
   def: "A surrealist work is made up of unexpected elements, which do not necessarily have any connection with each other. Surrealist artists distort objects to create new iconographic approaches",
   name: "Surrealism"
